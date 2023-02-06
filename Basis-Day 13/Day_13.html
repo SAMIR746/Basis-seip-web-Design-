@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 13</title>
+    <link rel="icon" href="./03192019-03.jpg">
+</head>
+<body>
+
+    <h1 style="text-align: center;">WEB DESIGN</h1>
+    <p style="text-align: center;">Date: 6-02-2023 <br>Batch- 16 <br>Md. Samir Amin <br>SEID: 326992</p>
+    <table>
+        <th>Topic:</th>
+        <td>
+            <ol>
+                <li>Html Form tag</li>
+                <li>Work with CSS</li>
+            </ol>
+        </td>
+    </table>
+    <h2 style="text-align: center; text-transform: uppercase;"><mark>Practical</mark></h2>
+
+    <table>
+        <th>HTML:</th>
+        <td>
+            <ol>
+                <li>Html Form tag</li>
+                <li>Work with CSS <!--Casecading style sheet--></li>
+            </ol>
+        </td>
+    </table>
+	<hr><hr><br>
+    <!--Demo form creation-->
+    <form style="border: 2px solid crimson; padding: 12px 8px 8px 8px; background-color: aliceblue;">
+        <h3 align="center">Information Form</h3><hr>
+        <label for="name">First Name:</label><br>
+        <input type="text" id="name" name="f_name" placeholder="First Name" required><br>
+        <label for="name">Last Name:</label><br>
+        <input type="text" id="name" name="l_name" placeholder="Last Name" required><br>
+        Number: <br>
+        <input type="number" placeholder="Contact No"><br>
+        Email: <br>
+        <input type="email" placeholder="Example@gmail.com" required><br><br>
+        Name list : <input type="checkbox" required>Saikat
+                    <input type="checkbox" required>Sadia 
+                    <input type="checkbox" required>Samir
+                    <input type="checkbox" required>Somrat
+                    <input type="checkbox" required>Tusar 
+                    <br><br>
+        Gender: <input name="gender" type="radio" required> Male 
+                <input name="gender" type="radio" required> Female 
+                <input name="gender" type="radio" required> Other 
+                <input name="gender" type="radio" required> rather Not To Say
+                <br><br>
+
+        Password: <br>
+        <input type="password" required><br><br>
+
+<!--Select option Creation-->
+        <select Name="" id=""><br>
+            <option>Select Your City</option>
+            <option value="">Dhaka</option>
+            <option value="">Rangpur</option>
+            <option value="">Shylet</option>
+            <option value="">Rajshahi</option>
+            <option value="">Khulna</option>
+            <option value="">Chattagram</option>
+        </select>
+        <br><br>
+
+<!--Multiple Datalist option Creation-->
+        <input list="data2" type="text">
+            
+            <datalist id="data1">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Rangpur">Rangpur</option>
+                <option value="Shylet">Shylet</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Chattagram">Chattagram</option>
+            </datalist>
+                
+            <br><br>
+
+            <datalist id="data2">
+                <option value="Dhaka_2">Dhaka_2</option>
+                <option value="Rangpur_2">Rangpur_2</option>
+                <option value="Shylet_2">Shylet_2</option>
+                <option value="Rajshahi_2">Rajshahi_2</option>
+                <option value="Khulna_2">Khulna_2</option>
+                <option value="Chattagram_2">Chattagram_2</option>
+            </datalist>
+        </input>
+
+         Image: <br>
+        <input type="file" required><br>
+       
+        <!-- <input type="button" value="Send"><br>-->
+        <br><hr>
+        <input type="submit" value="send"><br>
+    </form>
+
+</body>
+</html>
