@@ -1,0 +1,66 @@
+.t1{
+    background-color: tomato;
+    color: azure;
+}
+.h2{
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    background-image: url(https://cdn.britannica.com/94/123894-050-53EC378E/Tim-Berners-Lee-2005.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color: white;
+    align-content: end;
+    overflow:auto;
+    margin-top: 100px;
+
+
+}
+#heading{
+    text-shadow: 2px 2px 5px red;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(96, 205, 150);
+    border: 1px solid black;
+    position:fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+
+}
+.l{
+    float: left;
+}
+.l:last-child{
+    border-bottom: none;
+}
+.l a{
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.l a:hover{
+    background-color: #555;
+    color: white;
+}
+.l a:active{
+    background-color: crimson;
+    color: white;
+}
+.p{
+    text-decoration: none;
+    font-size: medium;
+    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-indent: 150px;
+}
