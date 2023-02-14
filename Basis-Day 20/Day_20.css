@@ -1,0 +1,40 @@
+*{
+    width: 100%;
+    margin:0;
+    padding: 0px;
+    font-size: medium;
+}
+nav{
+    background-color: black;
+    display: inline-block;
+    width: auto;
+    padding: 15px;
+    position: fixed;
+}
+li{
+ display: inline;
+ list-style-type: none;
+ align-items: start;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    
+}
+ul{
+    display: inline;
+    height: 10px;
+    padding: 0;
+}
+.i{
+    margin-left: 100px;
+}
+a:hover{
+    background-color: aquamarine;
+}
+a:active{
+    background-color: red;
+}
