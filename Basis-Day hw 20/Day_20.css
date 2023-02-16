@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.box1{
+    width: 100%;
+    background-color: bisque;
+    height: 50px;
+}
+.logo{
+    background-color: palegoldenrod;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    float: left;
+}
+.menu{
+    background-color: red;
+    width: 49%;
+    height: 50px;
+    text-align: center;
+    float: left;
+}
+.slide{
+    background-color: palegoldenrod;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    float: left;
+}
+li{
+    margin-top: 10px;
+    display: inline
+}
+
+a{  padding: 1px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    text-decoration: none;
+}
