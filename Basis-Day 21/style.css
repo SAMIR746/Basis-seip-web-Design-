@@ -35,7 +35,7 @@ nav{
     height: 30%;
     background-color: #dddddd;
 }
-ul{
+.u1{
     text-align: right;
     margin-left: auto;
     padding-top: 21px;
@@ -65,4 +65,56 @@ a:active{
     width: 60%;
     margin: auto;
     background-image: url(https://s.studiobinder.com/wp-content/uploads/2020/07/What-is-a-Wide-Angle-Lens-Featured.jpg);
+}
+.main{
+    width: 60%;
+    margin: auto;
+}
+.small1{
+    width: 250px;
+    height: 270px;
+    border: 1px solid black;
+    /* float:start; */
+    display: inline-block;
+    padding-left: 10px;
+    border-radius: 34px;
+    border-color: #999999;
+}
+.hh{
+    color: #00C6F0;
+}
+.small2{
+    width: 250px;
+    height: 196px;
+    border: 1px solid black;
+    /* float:start; */
+    display: block;
+    padding-top: 10px;
+    padding-left: 16px;
+    border-radius: 34px;
+    border-color: #999999;
+}
+.a2{
+    color: #00C6F0;
+}
+.li2{
+    color: #00C6F0;
+}
+input{
+    width: 175px;
+}
+.small3{
+    width: 250px;
+    height: 144px;
+    border: 1px solid black;
+    /* float:start; */
+    display: block;
+    padding-top: 16px;
+    padding-left: 14px;
+    border-radius: 34px;
+    border-color: #999999;
+}
+svg{
+    width: 15px;
+    height: 15px;
 }
