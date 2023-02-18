@@ -1,0 +1,15 @@
+/*
+ {clearfix::after 
+contant = "" ;
+clear = both ;
+dispaly = block ;
+}
+
+overflow = auto
+clear = both */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
