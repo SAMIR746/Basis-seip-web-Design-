@@ -1,0 +1,85 @@
+/* universal work start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: #848E9F;
+}
+ul{
+    list-style:none;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+::selection{
+    background-color: aqua;
+    color: white;
+}
+/* universal work end  */
+
+
+/* header section start  */
+.box_1{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #848E9F;
+        flex-basis: 100%;
+}
+.contact_1{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ flex-basis: 49%;
+ padding: 0 130px;
+}
+.contact_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    flex-basis: 49%;
+    padding: 0 110px;
+}
+
+.box_2{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+.Name{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+flex-basis: 49%;
+padding: 1% 11%;;
+}
+.library{
+display: flex;
+flex-wrap: wrap;
+justify-content: right;
+flex-basis: 49%;
+padding: 1% 11%;
+}
+.library a{
+    color: black;
+}
+.library a:hover{
+    color: aqua;
+    border-bottom: 4px solid aqua;
+    padding-bottom: 15px;
+    
+}
+/* header section end  */
+
+/* poster work start */
+.box_3{
+    background-image: url("./img/hero.jpg");
+    background-size: cover;
+    height: 530px;
+}
+/* poster work End */
