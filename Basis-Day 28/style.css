@@ -36,7 +36,11 @@ li{
  flex-wrap: wrap;
  justify-content: flex-start;
  flex-basis: 49%;
- padding: 0 130px;
+ padding: 0 53px;
+}
+.contact_1 i{
+    color: #848E9F;
+    padding: 3px;
 }
 .contact_2{
     display: flex;
@@ -63,16 +67,25 @@ display: flex;
 flex-wrap: wrap;
 justify-content: right;
 flex-basis: 49%;
-padding: 1% 11%;
+padding: 8px 8%;
+margin-bottom: 0px;
 }
 .library a{
     color: black;
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 27px;
+    font-weight: 700;
 }
 .library a:hover{
     color: aqua;
-    border-bottom: 4px solid aqua;
+    border-bottom: 5px solid aqua;
     padding-bottom: 15px;
     
+}
+.h1{
+    color: #13c5dd;
+    text-transform: uppercase;
 }
 /* header section end  */
 
@@ -80,6 +93,72 @@ padding: 1% 11%;
 .box_3{
     background-image: url("./img/hero.jpg");
     background-size: cover;
-    height: 530px;
+    height: 470px;
+    /* margin-top: 0px;
+    padding-top: 0px; */
 }
+.box_3 .text_1, .b-button{
+    margin-left: 6%;
+}
+.text_2{
+    margin-left: 6%;
+}
+.text_1,
+.text_1{
+  display: flex;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.text_1{
+    line-height: 24px;
+    font-size: 20px;
+    padding-top: 10%;
+    display: flex;
+    color: #13c5dd;
+    border-bottom: 5px solid #ffffff40;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.text_2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-size: 70px;
+    width: 60%;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.b-button {
+    overflow: auto;
+}
+.b-button {
+    overflow: auto;
+}
+.b-left,
+.bcb-right {
+    float: left;
+}
+
+.button-left,
+.button-right {
+    padding: 16px 48px;
+    border-radius: 50rem;
+    margin: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+}
+.button-left {
+    background-color: #ffffff;
+    color: #000000;
+}
+.button-right {
+    background-color: #00000000;
+    border: 2px solid #ffffff;
+}
+.button-right:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 /* poster work End */
